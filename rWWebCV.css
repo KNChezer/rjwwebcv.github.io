@@ -1,0 +1,286 @@
+/* The code for this CSS file and all files associated and linked to it were written
+by Ryan Wheatley. All rights reserved */
+@media screen and (max-width: 1020px) {
+  body {
+    width: auto;
+    float: left;
+    background-color: #99ccff;
+  }
+
+
+  #header {
+    height: auto;
+    float: both;
+    margin: auto 0;
+    font-size: 30px;
+    padding-bottom: 400px;
+    width: auto;
+    line-height: 2.0;
+  }
+
+  h1 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #navLinks {
+    text-align: center;
+  }
+
+
+  #content {
+    float: left;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #footer {
+    clear: both;
+    font-size: 30px;
+  }
+
+
+
+}
+
+
+body {
+  background: #fafafa;
+}
+
+#header {
+  background: linear-gradient(45deg, #e6e9ed, #a7bad1);
+  height: 250px;
+  width: auto;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.4em;
+  border-bottom: 3px solid #c7c7c7;
+  padding: 20px 20px 20px 20px;
+  width: 27%;
+  float: left;
+  text-align: right;
+  color: #3432ad;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+h1 a  {
+  text-decoration: none;
+  color: #3432ad;
+}
+
+h1 a:hover {
+  color: #ff2b2b;
+}
+
+#navLinks ul {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  list-style: none;
+  float: right;
+  padding: 20px 100px 10px 20px;
+}
+
+#navLinks li {
+  padding: 8px;
+}
+
+#navLinks a {
+  text-decoration: none;
+  color: #072c69;
+
+}
+
+#navLinks a:hover {
+  color: #f7c614;
+}
+
+#navLinks a:visited {
+  color: #636363;
+}
+
+#content {
+  max-width: 1000px;
+  margin: 30px auto;
+  border: 5px solid #a7bad1;
+}
+
+.post {
+  font-family: 'PT Sans', sans-serif;
+  margin: 30px 30px;
+  text-align: justify;
+}
+
+.post-img {
+  width: 225px;
+  height: 300px;
+  border-radius: 50px 150px 50px 150px;
+  float: left;
+  margin: 0 30px 30px 0;
+}
+
+.post-date {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #3432ad;
+}
+
+.post-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #072c69;
+}
+
+.firstP::first-letter {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #072c69;
+  font-size: 20px;
+}
+
+#footer {
+  background: linear-gradient(45deg, #a7bad1, #e6e9ed);
+  height: 150px;
+  width: auto;
+}
+
+#contactLinks ul {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  list-style: none;
+  padding: 60px 100px 10px 20px;
+  text-align: center;
+}
+
+#contactLinks li {
+  padding: 8px;
+  display: inline;
+  padding: 50px;
+}
+
+#contactLinks a {
+  text-decoration: none;
+  color: #072c69;
+}
+
+#contactLinks a:hover {
+  color: #f7c614;
+}
+
+#contactLinks a:visited {
+  color: #636363;
+}
+
+.about-post {
+  font-family: 'PT Sans', sans-serif;
+  margin: 30px 30px;
+  text-align: center;
+}
+
+#meAfghan {
+  height: 260px;
+  width: 200px;
+  border-radius: 5px;
+  margin-right: 160px;
+}
+
+#meNMichNSally {
+  height: 190px;
+  width: 260px;
+  border-radius: 5px;
+  margin-left: 160px;
+}
+
+#meCanopy {
+  height: 190px;
+  width: 190px;
+  border-radius: 5px;
+  margin-leftt: 160px;
+}
+
+#mePreCanopy {
+  height: 190px;
+  width: 190px;
+  border-radius: 5px;
+  margin-right: 160px;
+}
+
+.post-img-left {
+  width: 225px;
+  height: 300px;
+  border-radius: 50px 150px 50px 150px;
+  float: left;
+  margin: 0 30px 30px 0;
+}
+
+.post-img-right {
+  width: 225px;
+  height: 300px;
+  border-radius: 150px 50px 150px 50px;
+  float: right;
+  margin: 0 30px 30px 30px;
+}
+
+.signOff {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #636363;
+}
+
+hr {
+  width: 930px;
+}
+
+#WWDLogo {
+  height: 200px;
+  width: 300px;
+  border-radius: 50px;
+  float: left;
+  margin: 30px 30px 30px 0;
+}
+
+#meGuitar {
+  height: 250px;
+  width: 300px;
+  border-radius: 50px 150px 50px 150px;
+  float: left;
+  margin: 0 30px 30px 0;
+}
+
+#meKintail {
+  height: 250px;
+  width: 300px;
+  border-radius: 150px 50px 150px 50px;
+  float: right;
+  margin: 0 0 30px 30px;
+}
+
+.hobbies-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #072c69;
+  text-align: center;
+}
+
+.hobbies-post {
+  font-family: 'PT Sans', sans-serif;
+  margin: 30px 30px;
+  text-align: center;
+}
+
+.hobbies-post::first-letter {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #072c69;
+  font-size: 20px;
+}
