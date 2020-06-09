@@ -1,0 +1,203 @@
+@media (max-width: 1200px) {
+  #mainNavbar #lastLink {
+    border-right: 3px solid #c7c7c7;
+  }
+  .post-date {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .post-title {
+    text-align: center;
+  }
+}
+
+
+body {
+  background: #fafafa;
+}
+
+hr {
+  width: 93%;
+}
+
+
+
+#mainNavbar {
+  background: linear-gradient(45deg, #e6e9ed, #a7bad1);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#mainNavbar .navbar-brand {
+  color: #3432ad;
+  font-weight: 600;
+  border-bottom: 3px solid #c7c7c7;
+  letter-spacing: 0.2em;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: #ff2b2b;
+}
+
+#mainNavbar .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #3432ad;
+  border-right: 3px solid #c7c7c7;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #f7c614;
+}
+
+#mainNavbar .nav-link:visited {
+  color: #636363;
+}
+
+#mainNavbar #lastLink {
+  border: 0;
+}
+
+#mainNavbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(52, 50, 173)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#mainNavbar .navbar-toggler {
+  border-color: #3432ad;
+}
+
+.signOff {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #636363;
+}
+
+
+.content {
+  max-width: 1000px;
+  margin: 30px auto;
+  border: 5px solid #a7bad1;
+}
+
+.post {
+  font-family: 'PT Sans', sans-serif;
+  margin: 30px 30px;
+  text-align: justify;
+}
+
+.post-image {
+  width: 225px;
+  height: 300px;
+  border-radius: 50px 150px 50px 150px;
+}
+
+.post-img-right {
+  width: 225px;
+  height: 300px;
+  border-radius: 150px 50px 150px 50px;
+}
+
+.post-date {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #3432ad;
+}
+
+.post-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #072c69;
+}
+
+.firstP::first-letter {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #072c69;
+  font-size: 20px;
+}
+
+#footer {
+  background: linear-gradient(45deg, #a7bad1, #e6e9ed);
+
+  width: auto;
+}
+
+#contactLinks {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  list-style: none;
+  text-align: center;
+}
+
+
+
+#contactLinks a {
+  text-decoration: none;
+  color: #072c69;
+}
+
+#contactLinks a:hover {
+  color: #f7c614;
+}
+
+#contactLinks a:visited {
+  color: #636363;
+}
+
+
+.about-post {
+  font-family: 'PT Sans', sans-serif;
+  margin: 30px 30px;
+  text-align: justify;
+}
+
+
+#meAfghan {
+  height: 260px;
+  width: 200px;
+  border-radius: 5px;
+
+}
+
+#meNMichNSally {
+  height: 190px;
+  width: 260px;
+  border-radius: 5px;
+
+}
+
+#meCanopy {
+  height: 190px;
+  width: 190px;
+  border-radius: 5px;
+
+}
+
+#mePreCanopy {
+  height: 190px;
+  width: 190px;
+  border-radius: 5px;
+
+}
+
+#WWDLogo {
+  height: 200px;
+  width: 300px;
+  border-radius: 50px;
+}
+
+#meGuitar {
+  height: 250px;
+  width: 300px;
+  border-radius: 50px 150px 50px 150px;
+
+}
+
+#meKintail {
+  height: 250px;
+  width: 300px;
+  border-radius: 150px 50px 150px 50px;
+
+}
